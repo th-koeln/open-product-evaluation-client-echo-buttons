@@ -47,7 +47,7 @@ process.on('SIGINT', function() {
 	process.exit();
 });
 
-
+////////
 
 var btSerial2 = new (require('bluetooth-serial-port')).BluetoothSerialPort();
 
